@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Post Title 1</title>
+    <script>
+        tailwind.config = {
+          plugins: [tailwindTypography],
+        }
+      </script>
+      <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="../index.html" class="text-2xl font-bold">My Blog</a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-4">
+                    <a href="../index.html" class="hover:text-gray-200">Home</a>
+                    <div class="relative group">    
+                        <button class="hover:text-gray-200 flex items-center">
+                            Premium Content
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-white text-gray-800 pt-1 rounded shadow-lg">
+                            <a href="../link-1.html" class="block px-4 py-2 hover:bg-gray-100">Link 1</a>
+                            <a href="../link-2.html" class="block px-4 py-2 hover:bg-gray-100">Link 2</a>
+                        </div>
+                    </div>
+                    <a href="../about.html" class="hover:text-gray-200">About</a>
+                    <a href="../privacy-policy.html" class="hover:text-gray-200">Privacy Policy</a>
+                </div>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="mobile-menu-button" class="md:hidden p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="../index.html" class="block py-2 hover:bg-purple-700 rounded px-4">Home</a>
+                <div class="relative">
+                    <button id="mobile-premium-toggle" class="w-full text-left py-2 hover:bg-purple-700 rounded px-4 flex justify-between items-center">
+                        Premium Content
+                        <svg class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="mobile-premium-menu" class="hidden pl-4">
+                        <a href="../link-1.html" class="block py-2 hover:bg-purple-700 rounded px-4">Link 1</a>
+                        <a href="../link-2.html" class="block py-2 hover:bg-purple-700 rounded px-4">Link 2</a>
+                    </div>
+                </div>
+                <a href="../about.html" class="block py-2 hover:bg-purple-700 rounded px-4">About</a>
+                <a href="../privacy-policy.html" class="block py-2 hover:bg-purple-700 rounded px-4">Privacy Policy</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+        <article class="max-w-4xl mx-auto bg-white shadow-lg rounded-2xl p-8">
+                <h2 class="text-4xl font-bold text-purple-800 mb-4">The Smart Beginner's Guide to Investing: How to Grow Your Wealth from Scratch</h2>
+                <p class="text-sm text-gray-500 mb-6">Published on May 5, 2025 · 8 min read</p>
+          
+                <div class="bg-yellow-50 border-l-4 border-yellow-400 text-yellow-800 p-4 rounded mb-8">
+                  <p><strong>Disclaimer:</strong> This article is for informational purposes only and should not be taken as financial advice. Always do your own research or consult a certified financial advisor before making investment decisions.</p>
+                </div>
+          
+                <section class="prose lg:prose-lg max-w-none">
+                  <h3>Introduction</h3>
+                  <p>Imagine planting a mango tree. You water it, give it sunlight, and wait patiently. Years later, it gives you fruit every season. That’s what smart investing feels like: a small start today that grows into long-term wealth.</p>
+                  <p>If you’re new to investing and feeling overwhelmed, don’t worry. This guide walks you through every step, with clear language and real-life examples — no jargon, no fluff.</p>
+          
+                  <h3>Step 1: Understand Why You’re Investing</h3>
+                  <ul>
+                    <li>Are you investing for retirement?</li>
+                    <li>Saving for a home?</li>
+                    <li>Building a passive income stream?</li>
+                  </ul>
+                  <p><strong>Example:</strong> Sarah is 24 and wants to retire by 50. She decides to invest Rs. 5,000/month now instead of waiting until 30. Thanks to compound interest, her early start could make her Rs. 50 lakh richer than if she delayed.</p>
+          
+                  <h3>Step 2: Build a Financial Foundation First</h3>
+                  <ul>
+                    <li>An emergency fund (3–6 months of expenses)</li>
+                    <li>No high-interest debt (like credit cards)</li>
+                    <li>Health insurance</li>
+                  </ul>
+                  <p><strong>Example:</strong> Rahul earns Rs. 30,000/month. He sets aside Rs. 90,000 in an emergency fund before investing a single rupee. When he unexpectedly lost his job, he didn't have to touch his investments.</p>
+          
+                  <h3>Step 3: Start with Simple, Safe Investment Vehicles</h3>
+                  <ul>
+                    <li><strong>Mutual Funds / SIPs:</strong> Use apps like Zerodha Coin, Groww, or Paytm Money. Start with Rs. 500/month SIP. Choose Index Funds or Balanced Mutual Funds.</li>
+                    <li><strong>PPF (Public Provident Fund):</strong> Government-backed, tax-free, and compound interest. Lock-in: 15 years.</li>
+                    <li><strong>Fixed Deposits (FDs):</strong> Safe but lower returns. Good for short-term needs.</li>
+                  </ul>
+                  <p><strong>Example:</strong> Anita uses Groww to invest Rs. 1,000/month in Nifty 50 Index Fund. In 10 years, she might see Rs. 2+ lakhs (based on historical ~12% returns).</p>
+          
+                  <h3>Step 4: Diversify Your Portfolio</h3>
+                  <p><strong>Suggested Split for a 25-year-old:</strong></p>
+                  <ul>
+                    <li>50% in Mutual Funds</li>
+                    <li>20% in PPF</li>
+                    <li>20% in FDs</li>
+                    <li>10% in Gold ETFs or Digital Gold</li>
+                  </ul>
+                  <p><strong>Example:</strong> Karan invested 100% in one tech stock and lost 40%. His friend Meena, who split her investments across four funds, saw her total portfolio grow even when one fund underperformed.</p>
+          
+                  <h3>Step 5: Automate and Stay Consistent</h3>
+                  <ul>
+                    <li>Automate monthly SIPs</li>
+                    <li>Avoid checking your portfolio daily</li>
+                    <li>Reinvest dividends</li>
+                  </ul>
+                  <p><strong>Example:</strong> Amit sets an auto-debit of Rs. 2,000/month into a mutual fund. After 5 years, he has Rs. 1.6 lakhs without ever missing a payment.</p>
+          
+                  <h3>Step 6: Upgrade As You Learn</h3>
+                  <ul>
+                    <li>Learn about ETFs, REITs, Stocks, and Bonds</li>
+                    <li>Read books like <em>"The Psychology of Money"</em> or <em>"Rich Dad Poor Dad"</em></li>
+                    <li>Follow credible YouTube finance channels (like CA Rachana Ranade)</li>
+                  </ul>
+          
+                  <h3>Final Thoughts</h3>
+
+                  <p>Investing isn’t about luck or timing the market. It’s about discipline, patience, and education. Start small, stay consistent, and let time do the work.</p>
+                  <p>Even a tiny Rs. 500/month investment can grow into lakhs if you stick with it.</p>
+                  <p><strong>Remember:</strong> You don’t need to be rich to invest. You need to invest to get rich.</p>
+                  <p class="italic text-purple-700">Written with care to help real people understand real money. Stay curious. Stay disciplined.</p>
+                </section>
+          
+        </article>
+    </main>
+
+    <footer class="bg-gray-800 text-white mt-12">
+        <div class="container mx-auto px-4 py-8">
+            <div class="text-center">
+                <p>&copy; 2023 My Blog. All rights reserved.</p>
+                <div class="mt-2">
+                    <a href="../privacy-policy.html" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+                    <a href="../about.html" class="text-gray-400 hover:text-white mx-2">About</a>
+                </div>
+            </div>
+        </div>
+    </footer>   
+    <script src="../js/script.js"></script>
+</body>
+</html>

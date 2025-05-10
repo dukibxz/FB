@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold">FX Blog</a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-4">
+                    <a href="index.html" class="hover:text-gray-200">Home</a>
+                    <div class="relative group">
+                        <button class="hover:text-gray-200 flex items-center">
+                            Premium Content
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-white text-gray-800 pt-1 rounded shadow-lg">
+                            <a href="link-1.html" class="block px-4 py-2 hover:bg-gray-100">Link 1</a>
+                            <a href="link-2.html" class="block px-4 py-2 hover:bg-gray-100">Link 2</a>
+                        </div>
+                    </div>
+                    <a href="about.html" class="hover:text-gray-200">About</a>
+                    <a href="privacy-policy.html" class="hover:text-gray-200">Privacy Policy</a>
+                </div>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="mobile-menu-button" class="md:hidden p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="index.html" class="block py-2 hover:bg-purple-700 rounded px-4">Home</a>
+                <div class="relative">
+                    <button id="mobile-premium-toggle" class="w-full text-left py-2 hover:bg-purple-700 rounded px-4 flex justify-between items-center">
+                        Premium Content
+                        <svg class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="mobile-premium-menu" class="hidden pl-4">
+                        <a href="link-1.html" class="block py-2 hover:bg-purple-700 rounded px-4">Link 1</a>
+                        <a href="link-2.html" class="block py-2 hover:bg-purple-700 rounded px-4">Link 2</a>
+                    </div>
+                </div>
+                <a href="about.html" class="block py-2 hover:bg-purple-700 rounded px-4">About</a>
+                <a href="privacy-policy.html" class="block py-2 hover:bg-purple-700 rounded px-4">Privacy Policy</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-16 max-w-3xl">
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h1 class="text-4xl font-bold text-purple-700 mb-4">Privacy Policy</h1>
+          <p class="mb-4">Last updated: May 7, 2025</p>
+          
+          <p class="mb-4">
+            This blog is a simple, static website created for educational purposes. We do not collect personal information from visitors, nor do we use cookies or third-party trackers.
+          </p>
+          
+          <h2 class="text-2xl font-semibold mt-6 mb-2">1. No Data Collection</h2>
+          <p class="mb-4">
+            We do not require users to sign up, log in, or share any personal information to access our content. Your browsing activity is private and anonymous.
+          </p>
+    
+          <h2 class="text-2xl font-semibold mt-6 mb-2">2. No Cookies or Analytics</h2>
+          <p class="mb-4">
+            This blog does not use cookies, Google Analytics, Facebook pixels, or any form of user tracking. We respect your privacy and believe that educational content should not come at the cost of personal data.
+          </p>
+    
+          <h2 class="text-2xl font-semibold mt-6 mb-2">3. External Links</h2>
+          <p class="mb-4">
+            Some posts may contain links to third-party websites (e.g., finance apps or books). We are not responsible for their privacy practices. Please review their policies if you choose to visit those sites.
+          </p>
+    
+          <h2 class="text-2xl font-semibold mt-6 mb-2">4. Changes to This Policy</h2>
+          <p class="mb-4">
+            If this blog ever adds new features that involve data collection or cookies, this privacy policy will be updated accordingly.
+          </p>
+    
+          <p>
+            If you have any questions, feel free to reach out via the contact section (if available). Thanks for trusting us!
+          </p>
+        </div>
+      </main>
+    <footer class="bg-gray-800 text-white mt-12">
+        <div class="container mx-auto px-4 py-8">
+            <div class="text-center">
+                <p>&copy; 2023 My Blog. All rights reserved.</p>
+                <div class="mt-2">
+                    <a href="privacy-policy.html" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+                    <a href="about.html" class="text-gray-400 hover:text-white mx-2">About</a>
+                </div>
+            </div>
+        </div>
+    </footer>    <script src="js/script.js"></script>
+</body>
+</html>
